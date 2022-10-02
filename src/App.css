@@ -1,39 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Carter One", cursive;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  color: black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-float infinite 3s ease-in-out;
-  }
+h2,
+h3,
+h5 {
+  color: white;
 }
 
-.App-header {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+hr.new {
+  border: 1px solid white;
 }
 
-.App-link {
-  color: rgb(112, 76, 182);
+.navbar {
+  top: 0;
 }
 
-@keyframes App-logo-float {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(10px);
-  }
-  100% {
-    transform: translateY(0px);
-  }
+.site-footer {
+  bottom: 0;
+
+  left: 0;
+  position: relative;
+}
+
+video {
+  z-index: -1;
+  width: 100%;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.content {
+  width: 400px;
+  padding: 10px 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.learn-col {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.gear-col {
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+}
+
+.home-col {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.drumbook:hover {
+  background-color: rgba(0, 0, 0, 0.5);
 }
