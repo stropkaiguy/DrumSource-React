@@ -19,7 +19,7 @@ const ProfileForm = () => {
           <Label htmlFor="firstName" md="2">
             First Name
           </Label>
-          <Col md="10">
+          <Col md="8">
             <Field
               name="firstName"
               placeholder="First Name"
@@ -31,7 +31,7 @@ const ProfileForm = () => {
           <Label htmlFor="lastName" md="2">
             Last Name
           </Label>
-          <Col md="10">
+          <Col md="8">
             <Field
               name="lastName"
               placeholder="Last Name"
@@ -43,7 +43,7 @@ const ProfileForm = () => {
           <Label htmlFor="phoneNum" md="2">
             Phone Number
           </Label>
-          <Col md="10">
+          <Col md="8">
             <Field
               name="phoneNum"
               placeholder="(xxx) xxx-xxxx"
@@ -53,7 +53,7 @@ const ProfileForm = () => {
         </FormGroup>
         <FormGroup row>
           <Label htmlFor="email">Email</Label>
-          <Col md="10">
+          <Col md="8">
             <Field
               name="email"
               placeholder="drummer@drumsource.com"
@@ -70,7 +70,11 @@ const ProfileForm = () => {
         <FormGroup row>
           <Label htmlFor="influences">Influences</Label>
           <Col md="10">
-            <Field className="form-control" />
+            <Field
+              name="influences"
+              placeholder="Buddy Rich, John Bonham, Neil Peart, etc."
+              className="form-control"
+            />
           </Col>
         </FormGroup>
         <FormGroup row>
@@ -86,7 +90,11 @@ const ProfileForm = () => {
         <FormGroup row>
           <Label htmlFor="objectives">Learning Objectives</Label>
           <Col md="10">
-            <Field className="form-control" />
+            <Field
+              name="objectives"
+              placeholder="ex. I want to get better at timing and polyrhythms."
+              className="form-control"
+            />
           </Col>
         </FormGroup>
       </Form>

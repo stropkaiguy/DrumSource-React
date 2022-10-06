@@ -84,3 +84,8 @@ video {
 .drumbook:hover {
   background-color: rgba(0, 0, 0, 0.5);
 }
+
+.about-color {
+  background: linear-gradient (blue, black);
+  background-size: cover;
+}
