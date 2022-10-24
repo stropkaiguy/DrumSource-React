@@ -1,15 +1,24 @@
-import { Col, Card, CardImg, CardBody, CardText } from "reactstrap";
+import { Col, Card, CardImg, CardBody, CardText, Button } from "reactstrap";
 
 const SiteDetail = ({ drumsite }) => {
-  const { image, name, description } = drumsite;
+  const { image, name, description, url } = drumsite;
 
   return (
-    <Col md="12" className="m-4">
+    <Col md="10" className="p-3">
       <Card>
         <CardImg top src={image} alt={name} />
         <CardBody>
           <CardText>{description}</CardText>
         </CardBody>
+        <Button
+          href={url}
+          target="__blank"
+          className=" m-3"
+          size="md"
+          color="primary"
+        >
+          Check it out!
+        </Button>
       </Card>
     </Col>
   );

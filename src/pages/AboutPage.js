@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "reactstrap";
 import FadeInAbout from "../components/FadeInAbout";
 import FadeInImage from "../components/FadeInImage";
+import SubHeader from "../components/SubHeader";
 
 const AboutPage = () => {
   return (
@@ -16,6 +17,7 @@ const AboutPage = () => {
           height: "auto",
         }}
       >
+        <SubHeader current={"About"} />
         <Container className="p-5">
           <Row>
             <Col className="col-6">

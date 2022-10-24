@@ -12,7 +12,7 @@ function FadeInImage() {
       <Image
         className="img-fluid"
         rounded
-        style={{ height: "500px" }}
+        style={{ height: "350px" }}
         src={me}
         alt={me}
       />

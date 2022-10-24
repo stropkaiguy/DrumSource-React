@@ -21,6 +21,7 @@ import {
   faLinesLeaning,
 } from "@fortawesome/free-solid-svg-icons";
 import SticksDirectoryPage from "./SticksDirectoryPage";
+import SubHeader from "../components/SubHeader";
 
 const GearPage = () => {
   return (
@@ -35,6 +36,7 @@ const GearPage = () => {
           backgroundAttachment: "fixed",
         }}
       >
+        <SubHeader current={"Gear"} />
         <div>
           <Container>
             <Row>

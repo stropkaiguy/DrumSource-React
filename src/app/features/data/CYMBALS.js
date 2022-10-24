@@ -8,20 +8,24 @@ export const CYMBALS = [
     id: 0,
     name: "Zildjian",
     image: zildjian,
+    url: "https://zildjian.com/",
   },
   {
     id: 1,
     name: "Sabian",
     image: sabian,
+    url: "https://sabian.com/",
   },
   {
     id: 2,
     name: "Meinl",
     image: meinl,
+    url: "https://meinlcymbals.com/en/home",
   },
   {
     id: 3,
     name: "Paiste",
     image: paiste,
+    url: "https://www.paiste.com/",
   },
 ];

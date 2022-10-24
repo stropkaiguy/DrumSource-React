@@ -4,7 +4,13 @@ const DrumsImage = ({ drumset }) => {
   const { image, name } = drumset;
   return (
     <Col className="col-4 p-4">
-      <Image rounded style={{ height: "150px" }} src={image} alt={name} />
+      <Image
+        className="box image-fluid"
+        rounded
+        style={{ height: "150px" }}
+        src={image}
+        alt={name}
+      />
     </Col>
   );
 };

@@ -27,12 +27,12 @@ h5 {
   color: white;
 }
 
-hr.new {
-  border: 1px solid white;
+.link {
+  color: white;
 }
 
-.navbar {
-  top: 0;
+hr.new {
+  border: 1px solid white;
 }
 
 .site-footer {
@@ -88,4 +88,16 @@ video {
 .about-color {
   background: linear-gradient (blue, black);
   background-size: cover;
+}
+
+.box {
+  cursor: pointer;
+}
+
+.box:hover {
+  background-color: lightblue;
+}
+
+.site-footer {
+  background-color: darkgray;
 }

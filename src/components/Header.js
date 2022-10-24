@@ -15,7 +15,7 @@ const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <Navbar className="navbar sticky-top flex" expand="md" color="secondary">
+    <Navbar className="navbar sticky-top flex" expand="md" color="dark">
       <NavbarBrand>
         <h1>
           <a style={{ color: "white" }} href="/">

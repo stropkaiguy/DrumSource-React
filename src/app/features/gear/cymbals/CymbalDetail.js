@@ -1,7 +1,7 @@
-import { Col, Card, CardImg, CardBody, CardText } from "reactstrap";
+import { Col, Card, CardImg, CardBody, CardText, Button } from "reactstrap";
 
 const CymbalDetail = ({ cymbals }) => {
-  const { image, name, description } = cymbals;
+  const { image, name, description, url } = cymbals;
 
   return (
     <Col md="12" className="m-4">
@@ -10,6 +10,15 @@ const CymbalDetail = ({ cymbals }) => {
         <CardBody>
           <CardText>{description}</CardText>
         </CardBody>
+        <Button
+          href={url}
+          target="__blank"
+          className=" m-3"
+          size="md"
+          color="primary"
+        >
+          Buy
+        </Button>
       </Card>
     </Col>
   );

@@ -24,6 +24,7 @@ import DrumsiteList from "../app/features/DrumsiteList";
 import BookDirectoryPage from "./BookDirectoryPage";
 import VideoDirectoryPage from "./VideoDirectoryPage";
 import SiteDirectoryPage from "../app/features/SiteDirectoryPage";
+import SubHeader from "../components/SubHeader";
 
 const LearnPage = () => {
   return (
@@ -38,6 +39,7 @@ const LearnPage = () => {
           backgroundRepeat: "no-repeat",
         }}
       >
+        <SubHeader current={"Learn"} />
         <div>
           <Container>
             <Row>
@@ -45,8 +47,12 @@ const LearnPage = () => {
                 <h1 style={{ color: "white" }}>Learn</h1>
                 <h3>Get your educational resources here!</h3>
                 <h5>
-                  Click on the books, videos, and websites below to access your
-                  educational needs for your playing.{" "}
+                  Even though there are tons of resources out there to learn how
+                  to play drums, these are some of our recommendations to start
+                  you off with. We are also open to getting any recommendations
+                  from you. Let us know! Click on the books, videos, and
+                  websites below to access your educational needs for your
+                  playing.
                 </h5>
               </Col>
             </Row>

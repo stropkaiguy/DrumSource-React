@@ -6,24 +6,23 @@ import { faDrum } from "@fortawesome/free-solid-svg-icons";
 import ModalProfile from "../components/ModalProfile";
 import { useSpring, animated } from "react-spring";
 import FadeInHome from "../components/FadeInHome";
+import SubHeader from "../components/SubHeader";
 
 const HomePage = () => {
   return (
-    <>
-      <div
-        className="img-fluid "
-        style={{
-          backgroundImage: `url(${drumKit})`,
-          backgroundAttachment: "fixed",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-          backgroundRepeat: "no-repeat",
-          height: "auto",
-        }}
-      >
-        <FadeInHome />
-      </div>
-    </>
+    <div
+      className="img-fluid "
+      style={{
+        backgroundImage: `url(${drumKit})`,
+        backgroundAttachment: "fixed",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+        height: "auto",
+      }}
+    >
+      <FadeInHome />
+    </div>
   );
 };
 
