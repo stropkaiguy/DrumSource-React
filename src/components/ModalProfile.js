@@ -31,7 +31,7 @@ function ModalProfile(args) {
         <ProfileForm />
         <ModalFooter>
           <Button color="primary" onClick={toggle}>
-            Send
+            Create Profile
           </Button>{" "}
           <Button color="secondary" onClick={toggle}>
             Cancel
